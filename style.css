@@ -1,0 +1,72 @@
+.child {
+  box-sizing: border-box;
+  flex-grow: 1;
+  margin: 1% 2%;
+  width: 100%;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.content {
+  display: inline-flex;
+  width: 100%;
+}
+
+.day {
+  background-color: #6B9CBD;
+  box-sizing: border-box;
+  color: white;
+  font-family: Helvetica;
+  font-size: 100%;
+  margin: auto;
+  padding: 1.5% 3%;
+}
+
+hr {
+  background-color: #E6B510;
+  border: 0;
+  height: 2px;
+  margin-right: 2%;
+  width: 7%;
+}
+
+html {
+  margin: auto;
+  width: 65%;
+}
+
+h1 {
+  color: #7B7B7B;
+  font-family: Helvetica;
+  font-size: 130%;
+  font-weight: 500;
+  margin: 0;
+  position: absolute;
+}
+
+.info {
+  margin-left: 2%;
+}
+
+img {
+  margin-top: 1%;
+}
+
+p {
+  color: #424A4A;
+  font-family: Helvetica;
+  font-size: 98%;
+  font-weight: 300;
+}
+
+#titlebar {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5%;
+}
